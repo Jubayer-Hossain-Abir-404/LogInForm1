@@ -44,6 +44,7 @@ namespace LogInForm1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(340, 48);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "01790675227";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
@@ -54,6 +55,7 @@ namespace LogInForm1
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(340, 48);
             this.textBox2.TabIndex = 0;
+            this.textBox2.Text = "01790675227";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
@@ -107,11 +109,14 @@ namespace LogInForm1
 
         #endregion
 
+        
+
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
+        
     }
 }
 

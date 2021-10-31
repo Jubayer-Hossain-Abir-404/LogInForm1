@@ -131,6 +131,12 @@ namespace LogInForm1
 
 
         }
+
+        private void maximize_Click(object sender, EventArgs e)
+        {
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            WindowState = WindowState == FormWindowState.Normal ? FormWindowState.Maximized : FormWindowState.Normal;
+        }
     }
     
 }
